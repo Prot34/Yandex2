@@ -1,0 +1,167 @@
+*,
+html{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-family: 'Bebas Neue', sans-serif;
+}
+body{
+  background-color: #2322;
+  height: 100vh;
+}
+.container-nav{
+  border: 1px solid black;
+  background-color: black;
+  height: 100px;
+  width: 100px;
+}
+.ul-nav{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+}
+.li-nav{
+  background-color: blue;
+  color: white;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 3px;
+  list-style: none;
+  border-radius: 5px;
+  
+}
+.li-nav:hover{
+  background-color: black;
+  cursor: pointer;
+  animation: 3s;
+  border-radius: 5px;
+
+  
+}
+.a-nav{
+  color: white;
+  text-decoration: none;
+}
+
+.container-content{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-content{
+  width: 1000px;
+  height: 20%;
+}
+
+
+.container-footer{
+  background-color: black;
+}
+
+.ul-footer{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.h2-footer{
+  color: white;
+  padding: 8px;
+  margin: 5px;
+}
+.button{
+  background-color: #2222;
+  color: white;
+}
+.contact{
+  color: black;
+  margin: 5px;
+  font-family: 'Comic Sans MS';
+  button-color black;
+}
+.a-contact{
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-decoration: none;
+  padding: 5px;
+  margin-block-start: 4px;
+  font-size: 30px;
+  color: black;
+  border-radius: 5px;
+  
+ 
+}
+
+#body-contact{
+  background-color: white;
+}
+.footer-contact{
+  background-color: black;
+  border-radius: 2px;
+}
+
+/* isi */
+
+.a-isi{
+  text-decoration: none;
+  font-family: 'Comic Sans MS';
+  margin: 20px;
+  margin-top: 30px; 
+  color: blue;
+}
+
+.a-isi:hover{
+  color: red;
+  cursor: pointer;
+}
+.container-isi{
+  margin: 20px;
+  font-family: 'Comic Sans MS';
+}
+
+footer{
+  padding: 3px;
+  width: 100%;
+}
+.p-footer{
+  background-color: #1111;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 30px;
+  font-family: Comic Sans MS;
+  
+  
+}
+/* foto bawah */
+
+.div-foto-bawah{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block-start: 20px;
+  margin-inline-start: 20px;
+  margin-block-end: 20px;
+ 
+}
+.img-bawah{
+ 
+}
+
+.div-lorem{
+  font-family: Comic Sans MS;
+  margin: 10px;
+}
+.h2-lorem{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 20px;
+}
